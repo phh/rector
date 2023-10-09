@@ -42,6 +42,8 @@ vendor/bin/rector
 And modify it:
 
 ```php
+<?php
+
 use Rector\Config\RectorConfig;
 use Rector\Set\ValueObject\SetList;
 use Rector\TypeDeclaration\Rector\Property\TypedPropertyFromStrictConstructorRector;
